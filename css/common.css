@@ -279,7 +279,7 @@ i.material-icons{vertical-align: middle;}
 /* changable color area (light/dark mode) S */
 .fc-999{color: #999;}
 .fc-777{color: #777;}
-.fc-555{color: #555;}
+.fc-58B{color: #58585B;}
 .fc-333{color: #333;}
 .fc-point{color: #0EBBC2;}
 .fc-red{color: #FF6565!important;}
@@ -292,6 +292,7 @@ i.material-icons{vertical-align: middle;}
 .fs-14{font-size: 14px!important;}
 .fs-16{font-size: 16px!important;}
 .fs-18{font-size: 18px!important;}
+.fs-30{font-size: 30px!important;}
 .sub-text{font-size: 12px!important; color: #555; line-height: 1.25em; font-weight: 300; letter-spacing: 0; word-break: keep-all;}
 .sub-text a{font-size: 13px!important; color: #2E9AFF; font-weight: 400;}
 .exp-text{font-size: 12px!important; color: #777;}
@@ -300,7 +301,7 @@ i.material-icons{vertical-align: middle;}
 .link-text{background: #E6E6E6; display: inline-block; line-height: 1; color: #C20E98; font-size: 14px!important; font-weight: 400; padding: 3px 5px 2px;}
 .fw-300{font-weight: 300;}
 .fw-400{font-weight: 400; color: inherit;}
-.fw-500{font-weight: 700;}
+.fw-500{font-weight: 500;}
 .fw-700{font-weight: 700;}
 .bobo-0{border-bottom: 0!important;}
 .nowrap{white-space: nowrap;}
