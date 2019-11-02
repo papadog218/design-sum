@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Sum</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/common.css">
     <style>
         .navbar {
@@ -43,13 +44,21 @@
             height: 300px;
         }
         
+        .main-slide div {
+            width: 100%;
+        }
+        @media screen and (max-width: 768px) {
+            .w3-section {
+                max-width: 768px;
+            }
+        }
     </style>
 </head>
 <body>
-    <header class="" style="background-color: white;">
+    <header class="white-back pari pale">
         <div class="w100 ma-center">
-            <p class="main-title text-center ">DESIGN SUM</p>
-            <ul class="navbar ma-center" >
+            <p class="main-title text-center">DESIGN SUM</p>
+            <ul class="navbar ma-center">
                 <li class="dis-inbl box" style="line-height: 50px;">ABOUT US</li>
                 <li class="dis-inbl box" style="line-height: 50px;">PORTFOLIO</li>
                 <li class="dis-inbl box" style="line-height: 50px;">POROCESS</li>
@@ -58,32 +67,34 @@
             </ul>
         </div>
     </header>
-
-    <section style="height: 5000px; padding: 120px 20px 20px 0;">
+    <section style="padding-top: 120px; height: 5000px;" class="">
         <article class="main-slide">
-            main slider area
+            <div class="w3-section"><!-- style="width: 100% !important;" -->
+                <img class="mySlides w3-animate-fading" src="img/main_01.jpg" style="width:100%;">
+                <img class="mySlides w3-animate-fading" src="img/main_02.jpg" style="width:100%;">
+                <img class="mySlides w3-animate-fading" src="img/main_03.jpg" style="width:100%;">
+            </div>
         </article>
-        <article class="sum">
-            <div class="text-center pabo mabo">
+        <article class="sum patop box">
+            <div class="text-center w100 pabo">
                 <p class="fs-30 fc-58B fw-700 pabo-1">Design SUM</p>
-                <span class="fs-16 fw-500 fc-58B">
+                <p class="fs-16 fw-500 fc-58B">
                     단 하나의 디자인도 대충하지 않습니다. <br>
                     끊임없는 연구를 통해 가장 적합한 디자인을 적용합니다.
-                </span>
+                </p>
             </div>
-            <div class="text-center table box" style="width: 100%; height: auto;">
-                <p class="cell box pabo">
+            <div class="text-center table" style="width: 100%; height: auto;">
+                <p class="cell">
                     <img src="img/sum_03.jpg" alt="" width="463px" height="300px">
                     <br>
                     <span class="fs-18 fw-700 dis-inbl patop">Product. 02</span>
-                    <!-- <p class="dis-inbl" style="width: 50px; border-top: 2px solid #F7EC37;"></p> -->
                     <br>
                     <span>
                         트렌드에 맞춘 다양한 시안을 확인하세요. <br>
                         PC / TABLET / MOBLIE에 맞춘 반응형 홈페이지 입니다.
                     </span>
                 </p>
-                <p class="cell box">
+                <p class="cell">
                     <img src="img/sum_02.jpg" alt="" width="463px" height="300px">
                     <br>
                     <span class="fs-18 fw-700 dis-inbl patop">Product. 03</span>
@@ -93,7 +104,7 @@
                         초보자도 간단하고 쉽게 적용하며, 빠르게 편집할 수 있습니다.
                     </span>
                 </p>
-                <p class="cell box">
+                <p class="cell">
                     <img src="img/sum_01.jpg" alt="" width="463px" height="300px">
                     <br>
                     <span class="fs-18 fw-700 patop dis-inbl">Product. 04</span>
@@ -121,10 +132,10 @@
 
         </article>
     </section>
-
     <footer>
         
     </footer>
 
+    <script src="js/mainSlide.js"></script>
 </body>
 </html>

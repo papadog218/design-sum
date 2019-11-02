@@ -191,7 +191,7 @@ body{
 	margin:0px auto;
 	min-width:320px;
 	width:100%;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 	overflow-x: hidden;
 	-webkit-overflow-scrolling:touch;
 }
@@ -260,7 +260,7 @@ i.material-icons{vertical-align: middle;}
 .pabo{padding-bottom: 25px;}
 .patop-2x{padding-top: 50px;}
 .pabo-2x{padding-bottom: 50px;}
-.pa0{padding: 0!important;}
+.pa-0{padding: 0!important;}
 .pabo-0{padding-bottom: 0!important;}
 
 .ma-0{margin: 0!important;}
