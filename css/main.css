@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.navbar {
+    display: block;
+    height: 52px;
+    text-align: justify;
+}
+.sum-list {
+    display: block;
+    text-align: justify;
+}
+.navbar:after, .sum-list:after {
+    display: inline-block;
+    width: 99%;
+    height: 0px;
+    content: '';
+}
+.navbar li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #808284;
+}
+.sum-list li {
+    text-align: center;
+}
+.main-title {
+    color: #70CBD6;
+    font-size: 30px;
+    font-weight: 700;
+}
+.img-sum1 {
+    background: url(img/sum_01.jpg) no-repeat;
+    width: 463px;
+    height: 300px;
+}
+.img-sum2 {
+    background: url(img/sum_02.jpg) no-repeat;
+    width: 463px;
+    height: 300px;
+}
+.img-sum3 {
+    background: url(img/sum_03.jpg) no-repeat;
+    width: 463px;
+    height: 300px;
+}
+.main-slide div {
+    width: 100%;
+}
+
+.imgList li {
+    display: flex;
+}
+
+.img_port01 {
+    background: url(../img/portfolio_01.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+.img_port02 {
+    background: url(../img/portfolio_02.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+.img_port03 {
+    background: url(../img/portfolio_03.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+.img_port04 {
+    background: url(../img/portfolio_04.jpg) no-repeat;
+    width: 400px;
+    height: 300px;
+}
+.bigImg {
+    background: url(../img/port_main.jpg) no-repeat;
+    width: 700px;
+    height: 681px;
+}
+@media screen and (max-width: 768px) {
+   
+}
