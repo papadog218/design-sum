@@ -1,9 +1,18 @@
 @charset "utf-8";
+@import "https://www.w3schools.com/w3css/4/w3.css";
+@import "common.css";
 
+.portListDot li {
+    display: inline;
+}
 .navbar {
     display: block;
     height: 52px;
     text-align: justify;
+}
+
+.navbar li {
+    /* font-size: 12px !important; */
 }
 .sum-list {
     display: block;

@@ -257,8 +257,10 @@ i.material-icons{vertical-align: middle;}
 .patop-1{padding-top: 10px;}
 .pabo-1{padding-bottom: 10px;}
 .patop{padding-top: 25px;}
+.patop-15{padding-top: 15px;}
 .patop-30{padding-top: 30px;}
 .pabo{padding-bottom: 25px;}
+.pabo-15{padding-bottom: 15px;}
 .pabo-30{padding-bottom: 30px;}
 .patop-2x{padding-top: 50px;}
 .pabo-2x{padding-bottom: 50px;}
@@ -271,6 +273,7 @@ i.material-icons{vertical-align: middle;}
 .male{margin-left: 20px;}
 .matop{margin-top: 25px;}
 .mabo{margin-bottom: 25px;}
+.mabo-80{margin-bottom: 80px;}
 .matop-2x{margin-top: 50px;}
 .mabo-2x{margin-bottom: 50px;}
 .ma-center {margin: 0 auto;}
@@ -282,6 +285,7 @@ i.material-icons{vertical-align: middle;}
 .fc-999{color: #999;}
 .fc-777{color: #777;}
 .fc-58B{color: #58585B;}
+.fc-808{color: #808284;}
 .fc-333{color: #333;}
 .fc-point{color: #0EBBC2;}
 .fc-red{color: #FF6565!important;}
@@ -290,10 +294,12 @@ i.material-icons{vertical-align: middle;}
 .bg-000{background: #000!important;}
 
 /* fixed font-size S */
+.fs-10{font-size: 10px!important;}
 .fs-12{font-size: 12px!important;}
 .fs-14{font-size: 14px!important;}
 .fs-16{font-size: 16px!important;}
 .fs-18{font-size: 18px!important;}
+.fs-26{font-size: 26px!important;}
 .fs-30{font-size: 30px!important;}
 .sub-text{font-size: 12px!important; color: #555; line-height: 1.25em; font-weight: 300; letter-spacing: 0; word-break: keep-all;}
 .sub-text a{font-size: 13px!important; color: #2E9AFF; font-weight: 400;}
