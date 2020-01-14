@@ -1,4 +1,38 @@
 @charset "utf-8";
 @import "reset.css";
-@import "https://www.w3schools.com/w3css/4/w3.css";
 @import "common.css";
+
+.mySlider_img:nth-child(2),
+.mySlider_img:nth-child(3)
+{
+    display: none;
+}
+.fadein {
+    animation: 4s fadein ease-in-out;
+}
+.fadeout {
+    animation: 4s fadeout ease-in-out;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

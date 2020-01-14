@@ -5,8 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main | Design Sum</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
 </head>
-<body>
-    
+<body id="main">
+    <header class="header">
+        <div class="header_title fc-main">DESIGN SUM</div>
+        <nav class="header_nav nav">
+            <span class="nav_item"><a href="#" class="fc-nav">ABOUT US</a></span>
+            <span class="nav_item"><a href="#" class="fc-nav">PORTFOLIO</a></span>
+            <span class="nav_item"><a href="#" class="fc-nav">PROCESS</a></span>
+            <span class="nav_item"><a href="#" class="fc-nav">BLOG / SNS</a></span>
+            <span class="nav_item"><a href="#" class="fc-nav">CONTACT</a></span>
+        </nav>
+    </header>
+    <article class="wrap">
+        <section class="img-slide">
+            <div class="mySlider">
+                <img class="mySlider_img" src="img/main_01.jpg" alt="main_01">
+            </div>
+            <script>
+                $(function(){
+                    mySlider();            
+                })
+                function mySlider() {
+                    var i;
+                    var conutImgs = 3;
+                    var activeImg = $(".mySlider_img");
+                    var activeImgSrc = $(".mySlider_img").attr("src");
+                    var getNum = activeImgSrc.split("_");
+                    if(getNum[1].length === 6) {
+                        getNum = getNum[1].substring(0,2);
+                        console.log(getNum);
+                    } else {
+
+                    }
+                    // console.log(test[0].substring(0,4));
+                }
+            </script>
+        </section>
+        <section></section>
+        <section></section>
+    </article>
+    <footer>
+
+    </footer>
 </body>
 </html>
